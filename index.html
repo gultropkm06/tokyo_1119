@@ -460,7 +460,7 @@ function dayMapSVG(map){
   const inView=(x,y,m=0)=>x>-m&&x<W+m&&y>-m&&y<H+m;
   const zoomed=k>=600;           /* city-level zoom: show ward borders + names */
   let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="當天路線示意圖（關東地區實際輪廓）"><defs>`;
-  map.routes.forEach((r,i)=>{s+=`<marker id="ar${mid}_${i}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="${r.color}"/></marker>`});
+  map.routes.forEach((r,i)=>{s+=`<marker id="ar${mid}_${i}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="${r.color}"/></marker>`});
   s+=`<pattern id="wave${mid}" width="28" height="14" patternUnits="userSpaceOnUse"><path d="M0 9 Q 7 3, 14 9 T 28 9" fill="none" stroke="#b9d6ec" stroke-width="1"/></pattern>
   <clipPath id="clip${mid}"><rect width="${W}" height="${H}"/></clipPath></defs>
   <rect width="${W}" height="${H}" fill="#d9eaf7"/><rect width="${W}" height="${H}" fill="url(#wave${mid})"/>
