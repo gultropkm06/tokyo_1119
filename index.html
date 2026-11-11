@@ -189,7 +189,7 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);border-top:1px solid va
       <li data-v="1"><mark class="x">Mt.TAKAO 號座席指定</mark>（11/23 高尾山口 14:15 → 新宿 15:09）：京王チケットレス，<mark class="t">11/16 07:00</mark> 開賣，<mark class="m">¥400</mark>。</li>
       <li data-v="23"><mark class="k">版本 2／3 不用訂任何車票</mark>：河口湖 10:32 普通車直通高尾、京王線、御苑門票都是現場買。</li>
       <li><mark class="k">東京飯店定案</mark>：東新宿 E／大都會飯田橋／MYSTAYS 龜戶留一退二，<mark class="w">11/19 黑貓寄行李要地址</mark>。</li>
-      <li>超級飯店備註 <mark class="t">21:00 後</mark> 入住：☎ 0555-20-9100。</li>
+      <li>超級飯店備註 <mark class="t">20:30 左右</mark> 入住、請飯店 20:00 派車到迴廊：☎ 0555-20-9100。</li>
     </ul></div>
     <div class="box"><h3>🚆 當天現買就好的</h3><ul>
       <li>Skyliner：成田空港站售票機。</li>
@@ -262,7 +262,7 @@ const DAYS = [
       {id:'sjk',lon:139.700,lat:35.690,dx:-3,dy:-48,e:'🏙️',n:'新宿',k:'city',note:['16:30 甲斐路'],at:'t'},
       {id:'otk',lon:138.940,lat:35.611,dx:0,dy:-62,e:'🔁',n:'大月',k:'rail',note:['9 分轉乘・特急券 ¥400'],at:'r'},
       {id:'kwg',lon:138.765,lat:35.499,dx:60,dy:-30,e:'🚉',n:'河口湖站',k:'rail',note:['18:38 到，排計程車'],at:'r'},
-      {id:'mmj',lon:138.753,lat:35.520,dx:-2,dy:-50,e:'🍁',n:'楓葉迴廊',k:'nature',note:['點燈到 21:00'],at:'r'},
+      {id:'mmj',lon:138.753,lat:35.520,dx:-2,dy:-50,e:'🍁',n:'楓葉迴廊',k:'nature',note:['19:10–20:00，20:00 上車'],at:'r'},
       {id:'htl',lon:138.775,lat:35.488,dx:52,dy:36,e:'🏨',n:'超級飯店',k:'hotel'},
     ],
     routes:[
@@ -279,9 +279,9 @@ const DAYS = [
    {when:'13:58 / 14:18 / 14:38 / 14:59',who:'b',title:'Skyliner → 日暮里',body:'到日暮里各 {t|14:38 / 15:04 / 15:18 / 15:38}。京成→JR 連通閘門 3–5 分，搭 {p|山手線內回（池袋・新宿方面）} 約 21 分到新宿，再走 5–7 分到特急月台。13:58 那班才趕得上 Plan A；{!|最晚要搭 14:59 那班}，再晚就錯過 16:30。',price:'山手線 ¥210',why:'',tags:['must'],links:[]},
    {when:'16:30',title:'甲斐路（甲府行）→ 17:31 大月',body:'{k|Plan C 基準方案}。整點半一班，錯過就等到 17:30（河口湖 19:35 才到）。車上吃駅弁。Plan A：B 搭到 13:58 Skyliner 才可能，15:30 甲斐路 35 號 → 16:56 普通 → 18:07 河口湖，只早 31 分。',price:'已含在新宿買的票',why:'準點、票不綁班次',tags:['must'],links:[L('新宿駅 特急時刻 NAVITIME','https://www.navitime.co.jp/diagram/timetable?node=00004254&displayLine=00000019&updown=1')]},
    {when:'17:31–17:40',title:'大月轉フジサン特急 5 號',body:'JR→富士急有連通閘門，{!|轉乘只有 9 分}。富士急窗口或售票機買自由席特急券，來不及就上車補票或改搭 {t|17:47} 普通車（18:51 到，只晚 13 分）。',price:'特急券約 ¥400',why:'18:38 到河口湖',tags:['ticket'],links:[L('富士急 大月駅 時刻表','https://www.fujikyu-railway.jp/station/timetable.php?no=1')]},
-   {when:'18:38',title:'到河口湖站：先買宵夜，再排計程車',body:'出站 {p|Lawson/7-11} 買泡麵飲料帶著。飯店旁 BELL 超市 21:00（冬季 20:00）就關，迴廊附近沒有便利商店。站前計程車乘車處到 {p|楓葉迴廊}（北岸，約 5 km），跟司機說「もみじ回廊、久保田一竹美術館の近く」。周遊巴士紅線 {!|末班 17:45}，晚上沒有巴士。上車前打飯店說 21:00 左右到。',price:'計程車約 ¥2,000–2,500',why:'',tags:['must'],links:[L('河口湖駅 紅線乘車處','https://www.trvlogue.com/ja/kawaguchiko-oishi-park-bus')]},
-   {when:'19:10–20:30',title:'楓葉迴廊 夜楓',body:'燈飾到 {t|21:00}，屋台 {t|19:00} 收。梨川沿岸約 60 棵楓樹，走到湖邊回頭看。{!|回程才是難點}：河口湖沒有任何叫車 App（GO/Uber 都不涵蓋），去程就跟司機約 {t|20:30} 在迴廊入口回接直達飯店，或請飯店櫃台（☎ 0555-20-9100）叫車。',price:'免費',why:'紅葉祭 11/7–11/29',tags:['free'],links:[L('富士河口湖紅葉まつり 2026','https://www.enjoytokyo.jp/event/2089582/'),L('河口湖沒有叫車 App','https://car-me.jp/taxi/articles/38450')]},
-   {when:'20:45',title:'超級飯店富士河口湖 Check-in、泡溫泉',body:'{p|船津 3062-5}，車站南邊 1.5 km。最晚入住 {t|24:00}，溫泉到翌朝 09:00，早餐 07:00–09:00。Welcome bar 21:00 結束，今天趕不上。',price:'已付',why:'',tags:[],links:[L('スーパーホテル富士河口湖 官網','https://www.superhotel.co.jp/s_hotels/kawaguchiko/')]},
+   {when:'18:38',title:'到河口湖站：先買宵夜，再排計程車',body:'出站 {p|Lawson/7-11} 買泡麵飲料帶著。飯店旁 BELL 超市 21:00（冬季 20:00）就關，迴廊附近沒有便利商店。站前計程車乘車處到 {p|楓葉迴廊}（北岸，約 5 km），跟司機說「もみじ回廊、久保田一竹美術館の近く」。周遊巴士紅線 {!|末班 17:45}，晚上沒有巴士。上車前打飯店說 20:30 左右到。',price:'計程車約 ¥2,000–2,500',why:'',tags:['must'],links:[L('河口湖駅 紅線乘車處','https://www.trvlogue.com/ja/kawaguchiko-oishi-park-bus')]},
+   {when:'19:10–20:00',title:'楓葉迴廊 夜楓',body:'燈飾到 {t|21:00}，屋台 {t|19:00} 收。梨川沿岸約 60 棵楓樹，走到湖邊回頭看。{!|回程才是難點}：河口湖沒有任何叫車 App（GO/Uber 都不涵蓋），去程就跟司機約 {t|20:00} 在迴廊入口回接直達飯店，或請飯店櫃台（☎ 0555-20-9100）叫車。',price:'免費',why:'紅葉祭 11/7–11/29',tags:['free'],links:[L('富士河口湖紅葉まつり 2026','https://www.enjoytokyo.jp/event/2089582/'),L('河口湖沒有叫車 App','https://car-me.jp/taxi/articles/38450')]},
+   {when:'20:30',title:'超級飯店富士河口湖 Check-in、泡溫泉',body:'{p|船津 3062-5}，車站南邊 1.5 km。最晚入住 {t|24:00}，溫泉到翌朝 09:00，早餐 07:00–09:00。Welcome bar 到 21:00，20:30 進門還來得及喝一杯。',price:'已付',why:'',tags:[],links:[L('スーパーホテル富士河口湖 官網','https://www.superhotel.co.jp/s_hotels/kawaguchiko/')]},
   ],
   branches:[
    {kind:'alt',title:'省錢版 Plan B：中央特快',body:'15:36 或 15:44 中央特快（高尾行）→ 高尾 16:44 大月行 → 大月 17:40 特急 → 18:38。不用 JR 特急券，但換三次車、站著機率高。只在甲斐路滿座時用。'},
