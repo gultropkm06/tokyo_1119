@@ -229,7 +229,7 @@ footer::before{content:"✿ ";color:var(--pink)}
   <div class="grid2">
     <div class="box"><h3>🎫 要預約的</h3><ul>
       <li data-v="1"><mark class="x">富士回遊 36 號</mark>（11/20 河口湖 14:58 → 新宿 16:59，下吉田 15:12 停）：えきねっと訂「河口湖→新宿」指定席，<mark class="w">紅葉季會賣完</mark>。走分支 B 則不用訂。</li>
-      <li><mark class="x">BEYBLADE BAR TOKYO</mark>：11/21 12:45 起全天、11/22 20:00，TableCheck 預約。<a href="https://www.tablecheck.com/ja/shops/beyblade-bar/reserve/login_required">TableCheck</a></li>
+      <li><mark class="m">BEYBLADE BAR TOKYO 已預約 ✔</mark>：11/21 12:45 起全天、11/22 20:00。</li>
       <li><mark class="x">牛たんの檸檬 新宿総本店</mark>：11/21 21:00（週六最後點餐 21:45）。TableCheck 客滿就隔幾天再看取消釋出，或當天排自由席。<a href="https://www.tablecheck.com/ja/shops/gyutannolemon/reserve">TableCheck</a></li>
       <li data-v="1"><mark class="x">Mt.TAKAO 號座席指定</mark>（11/23 高尾山口 14:15 → 新宿 15:09）：京王チケットレス，<mark class="t">11/16 07:00</mark> 開賣，<mark class="m">¥400</mark>。</li>
       <li data-v="23"><mark class="k">版本 2／3 不用訂任何車票</mark>：河口湖 10:32 普通車直通高尾、京王線、御苑門票都是現場買。</li>
@@ -393,7 +393,7 @@ const DAYS = [
    {when:'10:00–11:00',title:'倉庫玩具店',body:'營業時間沒查到，以 10:00 開門估，出發前確認。郊區玩具店發售日會有配貨而且獵人少。{!|11:00 一定要離開}。',price:'—',why:'倉庫價舊品＋發售日新品',tags:['must'],links:[]},
    {when:'11:00–11:15',title:'計程車回北千住',body:'比走到梅島再轉車省 15 分。省錢版：走 15 分到梅島 → 東武 8 分到北千住，但緩衝只剩 30 分，不建議。',price:'約 ¥2,000',why:'',tags:[],links:[]},
    {when:'11:20–12:15',title:'千代田線直通小田急到下北澤',body:'北千住選「{k|小田急線直通}」的班次可直達下北澤；不是直通就在 {p|代々木上原} 同月台換小田急一站。約 55 分，留 30 分緩衝。',price:'約 ¥400',why:'',tags:['must'],links:[]},
-   {when:'12:45–20:30',title:'BEYBLADE BAR TOKYO，從第一場打到晚上',body:'午餐在 Bar 吃套餐，限定特調拿杯墊；晚上只點輕的，{k|留肚子給牛舌}。發售日 Bar 一定有新品但 {k|一桌一個}，被店家認定為掃貨者會進黑名單。{t|20:30} 準時離開。',price:'套餐約 ¥2,000＋飲料',why:'發售日當天保底',tags:['ticket','must'],links:[L('TableCheck 預約','https://www.tablecheck.com/ja/shops/beyblade-bar/reserve/login_required')]},
+   {when:'12:45–20:30',title:'BEYBLADE BAR TOKYO，從第一場打到晚上',body:'午餐在 Bar 吃套餐，限定特調拿杯墊；晚上只點輕的，{k|留肚子給牛舌}。發售日 Bar 一定有新品但 {k|一桌一個}，被店家認定為掃貨者會進黑名單。{t|20:30} 準時離開。',price:'套餐約 ¥2,000＋飲料',why:'發售日當天保底',tags:['must'],links:[]},
    {when:'20:30–20:50',title:'小田急 下北澤 → 新宿',body:'急行一站約 7 分。新宿西口出站往 {p|小滝橋通り} 方向走 5 分，{p|西新宿 7 丁目 YS ビル B1F}。',price:'¥170',why:'',tags:['walk'],links:[]},
    {when:'21:00–22:00',title:'新宿焼肉 牛たんの檸檬 総本店',body:'{!|週六營業到 22:30、最後點餐 21:45}，定食 60 分鐘制。{x|TableCheck 先試訂 21:00}，客滿就盯取消或直接排自由席，21:00 已過尖峰。名物極み厚切牛舌定食約 ¥2,990，遲到 5 分鐘要先打電話 ☎ 03-6279-3997。',price:'約 ¥2,500–3,000／人',why:'厚切牛舌名店',tags:['ticket'],links:[L('TableCheck 牛たんの檸檬','https://www.tablecheck.com/ja/shops/gyutannolemon/reserve'),L('官網','https://www.store-gyutan-lemon.com/')]},
    {when:'22:15',title:'回飯店',body:'新宿到飯田橋 總武線 15 分；龜戶約 35 分。',price:'約 ¥200',why:'',tags:[],links:[]},
@@ -423,7 +423,7 @@ const DAYS = [
   steps:[
    {when:'上午–下午',title:'三選一',body:'A：{p|新宿御苑}（週日有開 09:00–16:00，¥500）看楓葉＋銀杏，走去 {p|神宮外苑銀杏並木}（約七成黃）。B：秋葉原補貨、中野百老匯（週日池袋 Pokémon Center 很擠，有整理券風險）。C：太陽城沒逛完再去。',price:'御苑 ¥500',why:'',tags:[],links:[L('新宿御苑 紅葉 2026','https://fng.or.jp/shinjuku/2026/10/31/koyo_matome/')]},
    {when:'19:00',title:'下北澤先吃晚餐',body:'Bar 裡只點限定特調拿杯墊。',price:'',why:'',tags:[],links:[]},
-   {when:'20:00–20:30',title:'BEYBLADE BAR 最後一場，提早離場',body:'20:00 開始，{t|20:30} 離開。',price:'',why:'',tags:['ticket'],links:[]},
+   {when:'20:00–20:30',title:'BEYBLADE BAR 最後一場，提早離場',body:'20:00 開始，{t|20:30} 離開。已預約。',price:'',why:'',tags:[],links:[]},
    {when:'20:30–20:50',title:'計程車到六本木ヒルズ',body:'下北澤站前或請店家叫車，約 20 分。電車版 20:35 → 乃木坂 21:00 → 走 15 分，21:15 才到只剩 45 分，{k|這 ¥2,500 值得花}。',price:'約 ¥2,500',why:'',tags:['must'],links:[]},
    {when:'20:50–21:40',title:'けやき坂イルミネーション',body:'11/5–12/25，點燈 {t|17:00–22:00}（比去年早 1 小時收）。約 400 m、97 萬顆 LED，主題 SNOW & BLUE。從六本木ヒルズ側往下走，回頭看東京鐵塔在坡道盡頭。想多看就走毛利庭園（到 23:00）。聖誕市集只到 21:00，趕不上；東京ミッドタウン 11/26 才開始。',price:'免費',why:'',tags:['free'],links:[L('六本木ヒルズ けやき坂 官方','https://www.roppongihills.com/sp/christmashills/102/')]},
    {when:'22:00',title:'六本木站回飯店',body:'日比谷線／大江戶線，到飯田橋約 25 分、龜戶約 40 分。',price:'約 ¥250',why:'',tags:[],links:[]},
@@ -534,15 +534,20 @@ function dayMapSVG(map){
   s+=`<g transform="translate(${W-22},22)"><circle r="12" fill="#fff" stroke="#b5ad9c"/><path d="M0 -9 L4 3 L0 1 L-4 3 Z" fill="#e8503a"/><text y="-13" text-anchor="middle" fill="#7a7262" font-size="8" font-family="var(--display)" font-weight="700">N</text></g>`;
   /* routes: every route bows to the LEFT of its travel direction, so a segment that is
      walked out and back forms a lens (two separate arcs) instead of two lines on top of each other */
-  const DASH=['10 6','2 6','10 4 2 4'];
+  let ARR='';const DASH=['10 6','2 6','10 4 2 4'];
   map.routes.forEach((r,i)=>{
     const seq=r.seq.map(id=>N[id]);let d='';
     for(let j=0;j<seq.length-1;j++){const a=seq[j],b=seq[j+1];const mx=(a.px+b.px)/2,my=(a.py+b.py)/2;const dx=b.px-a.px,dy=b.py-a.py;
-      const len=Math.hypot(dx,dy)||1;const bf=(r.bow==null?0.16:r.bow);const bow=(bf<0?-1:1)*Math.max(10,len*Math.abs(bf))/len;   /* at least 10px of bow even on short hops */
-      d+=(j?'':`M ${a.px.toFixed(1)} ${a.py.toFixed(1)} `)+`Q ${(mx-dy*bow).toFixed(1)} ${(my+dx*bow).toFixed(1)} ${b.px.toFixed(1)} ${b.py.toFixed(1)} `;}
+      const len=Math.hypot(dx,dy)||1;const bf=(r.bow==null?0.16:r.bow);const bow=(bf<0?-1:1)*Math.max(10,len*Math.abs(bf))/len;
+      const cx=mx-dy*bow,cy=my+dx*bow;
+      d+=(j?'':`M ${a.px.toFixed(1)} ${a.py.toFixed(1)} `)+`Q ${cx.toFixed(1)} ${cy.toFixed(1)} ${b.px.toFixed(1)} ${b.py.toFixed(1)} `;
+      /* arrow at the middle of each hop (the point farthest from the opposite-direction line), not at the shared endpoints */
+      if(len>=34){const qx=0.25*a.px+0.5*cx+0.25*b.px,qy=0.25*a.py+0.5*cy+0.25*b.py;const ang=Math.atan2(dy,dx)*180/Math.PI;
+        ARR+=`<polygon points="7,0 -5,5 -2,0 -5,-5" transform="translate(${qx.toFixed(1)} ${qy.toFixed(1)}) rotate(${ang.toFixed(1)})" fill="${r.color}" stroke="#fff" stroke-width="2" paint-order="stroke" stroke-linejoin="round"/>`;}}
     s+=`<path d="${d}" fill="none" stroke="#fff" stroke-width="6.5" stroke-opacity=".85" stroke-linecap="round"/>`;
-    s+=`<path class="route" d="${d}" fill="none" stroke="${r.color}" stroke-width="3.2" stroke-dasharray="${DASH[i%DASH.length]}" stroke-linecap="round" marker-end="url(#ar${mid}_${i})"/>`;
+    s+=`<path class="route" d="${d}" fill="none" stroke="${r.color}" stroke-width="3.2" stroke-dasharray="${DASH[i%DASH.length]}" stroke-linecap="round"/>`;
   });
+  s+=ARR;
   /* stamps */
   Object.values(N).forEach(n=>{
     const c=KIND[n.k]||'#888';const r=14;const op=n.dim?.45:1;
@@ -651,7 +656,7 @@ const DAY4_V23={
   steps:[
    {when:'上午–下午',title:'三選一',body:'A：{p|新宿御苑}（週日有開 09:00–16:00，¥500）看楓葉＋銀杏，走去 {p|神宮外苑銀杏並木}（約七成黃）。B：秋葉原補貨、中野百老匯。C：太陽城沒逛完再去。',price:'御苑 ¥500',why:'',tags:[],links:[L('新宿御苑 紅葉 2026','https://fng.or.jp/shinjuku/2026/10/31/koyo_matome/')]},
    {when:'19:00',title:'下北澤先吃晚餐',body:'Bar 裡只點限定特調拿杯墊。',price:'',why:'',tags:[],links:[]},
-   {when:'20:00–約 22:00',title:'BEYBLADE BAR 最後一場',body:'今天不用提早走，可以打到結束。',price:'',why:'',tags:['ticket'],links:[]},
+   {when:'20:00–約 22:00',title:'BEYBLADE BAR 最後一場',body:'今天不用提早走，可以打到結束。已預約。',price:'',why:'',tags:[],links:[]},
    {when:'22:00',title:'回飯店',body:'小田急→新宿轉乘，到飯田橋約 35 分、龜戶約 50 分。',price:'約 ¥300',why:'',tags:[],links:[]},
   ],
   branches:[]};
@@ -692,8 +697,8 @@ const VARIANTS={
 };
 const VERSIONS=[
   {v:1,name:'版本 1 原案',sub:'Day 2 忠靈塔 → 富士回遊回東京 → 池袋；Day 4 Bar 後六本木；Day 5 高尾山',need:'要訂：富士回遊 36 號、Mt.TAKAO 號'},
-  {v:2,name:'版本 2 纜車＋高尾山',sub:'Day 2 天上山纜車 → 直通高尾 → 高尾山；Day 5 明治神宮御苑 → 東大銀杏 → 六本木',need:'不用訂任何車票，只剩 Bar 預約'},
-  {v:3,name:'版本 3 忠靈塔＋高尾山',sub:'Day 2 忠靈塔 → 直通高尾 → 高尾山；Day 5 明治神宮御苑 → 東大銀杏 → 六本木',need:'不用訂任何車票，只剩 Bar 預約'},
+  {v:2,name:'版本 2 纜車＋高尾山',sub:'Day 2 天上山纜車 → 直通高尾 → 高尾山；Day 5 明治神宮御苑 → 東大銀杏 → 六本木',need:'不用訂任何車票'},
+  {v:3,name:'版本 3 忠靈塔＋高尾山',sub:'Day 2 忠靈塔 → 直通高尾 → 高尾山；Day 5 明治神宮御苑 → 東大銀杏 → 六本木',need:'不用訂任何車票'},
 ];
 let VER=1;
 function dayFor(d){const o=VARIANTS[VER][d.id];return o?{...d,...o}:d}
