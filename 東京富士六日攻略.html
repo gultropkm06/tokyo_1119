@@ -151,7 +151,7 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);border-top:1px solid va
 }
 </style>
 
-<style>html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} body{font-size:15px} img{max-width:100%} [hidden]{display:none!important}</style>
+<style>html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} img{max-width:100%} [hidden]{display:none!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -163,12 +163,17 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);border-top:1px solid va
     <span class="chip">✈️ A：早班機 02:25→06:30 ／ 回 晚班機 20:20</span>
     <span class="chip">✈️ B：中午班機 07:55→12:00 ／ 回 14:00→17:05</span>
     <span class="chip">🏨 11/19 超級飯店富士河口湖</span>
-    <span class="chip">🏨 11/20–24 東京（<b>三筆訂房待留一</b>）</span>
+    <span class="chip">🏨 11/20–24 東京（<b>暫定飯田橋</b>，龜戶待定）</span>
   </div>
   <div class="legend">
     <span style="--c:var(--time)">時間</span><span style="--c:var(--place)">地點 / 車站</span><span style="--c:var(--money)">價格</span><span style="--c:var(--ticket)">票務 / 預約</span><span style="--c:var(--warn)">風險 / 底線</span><span style="--c:var(--key)">重點</span>
   </div>
 </header>
+
+<section class="versions" id="versions" aria-label="版本切換">
+  <div class="vhead"><h2>🧭 Day 2 兩個方案，點一下切換</h2><p>只有 Day 2 白天不同，兩案都搭同一班 <mark class="x">富士回遊 32 號</mark>，傍晚到新宿後的行程一樣。Day 1 晚上去不去迴廊，到河口湖站再看時間決定。</p></div>
+  <div class="vrow" id="vrow"></div>
+</section>
 
 <nav class="tabs" aria-label="日期分頁"><div class="tabrow" id="tabrow" role="tablist"></div></nav>
 
@@ -178,17 +183,20 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);border-top:1px solid va
   <h2>🚨 出發前就要辦好的票與預約</h2>
   <div class="grid2">
     <div class="box"><h3>🎫 要預約的</h3><ul>
+      <li><mark class="x">富士回遊 32 號</mark>（11/20 河口湖 <mark class="t">14:08</mark>／下吉田 <mark class="t">14:21</mark> → 新宿 <mark class="t">16:08</mark>）：えきねっと訂「河口湖→新宿」指定席兩張，<mark class="k">兩個方案都用同一張</mark>，去忠靈塔就在下吉田上車。<mark class="w">紅葉季週五會賣完，盡快訂</mark>。</li>
       <li><mark class="m">BEYBLADE BAR TOKYO 已預約 ✔</mark>：11/21 12:45 起全天、11/22 20:00。</li>
-      <li><mark class="x">牛たんの檸檬 新宿総本店</mark>：11/21 21:00（週六最後點餐 21:45）。TableCheck 客滿就隔幾天再看取消釋出，或當天排自由席。<a href="https://www.tablecheck.com/ja/shops/gyutannolemon/reserve">TableCheck</a></li>
-      <li><mark class="k">車票都不用預約</mark>：11/20 下吉田 10:45 普通車、中央線、御苑門票都是現場買或刷 IC。</li>
-      <li><mark class="k">東京飯店定案</mark>：池袋陽光城王子／大都會飯田橋／MYSTAYS 龜戶 三選一，<mark class="w">11/19 黑貓寄行李要地址</mark>。</li>
+      <li><mark class="x">牛たんの檸檬 新宿総本店</mark>：11/20 <mark class="t">17:00</mark> 開門第一輪（網路已滿，16:45 前到現場排自由席），隔幾天再看 TableCheck 有沒有取消釋出。<a href="https://www.tablecheck.com/ja/shops/gyutannolemon/reserve">TableCheck</a></li>
+      <li><mark class="x">11/20 晚餐燒肉</mark>：<mark class="t">19:00 以後</mark>，店家與預約待定。</li>
+      <li><mark class="x">Mt.TAKAO 號座席指定</mark>（11/23 高尾山口 14:15 → 新宿 15:09）：京王チケットレス，<mark class="t">11/16 07:00</mark> 開賣，<mark class="m">¥400</mark>。</li>
+      <li><mark class="k">東京飯店定案</mark>：暫定飯田橋，龜戶待定，<mark class="w">11/19 黑貓寄行李要地址</mark>。11/20 入住會到 <mark class="t">23:00</mark> 左右，先跟飯店說晚到。</li>
       <li>超級飯店備註 <mark class="t">20:30 左右</mark> 入住、請飯店 20:00 派車到迴廊：☎ 0555-20-9100。</li>
     </ul></div>
     <div class="box"><h3>🚆 當天現買就好的</h3><ul>
       <li>Skyliner：成田空港站售票機。</li>
       <li>JR 乘車券「新宿→河口湖」＋「座席未指定券 新宿→大月」：新宿綠色窗口或指定席售票機，可上當天任一班甲斐路。</li>
       <li>フジサン特急 特急券（<mark class="m">約 ¥400</mark>）：大月富士急窗口，<mark class="w">轉乘只有 9 分</mark>。</li>
-      <li>明治神宮御苑協力金 <mark class="m">¥500</mark>：御苑入口現場付，11 月 09:00–16:00。</li>
+      <li>天上山纜車（往復 <mark class="m">¥1,000</mark>）、高尾山纜車（單程 <mark class="m">¥490</mark>，可刷 Suica）：現場買。</li>
+      <li>京王線 新宿→高尾山口 <mark class="m">約 ¥430</mark>：刷 IC。</li>
     </ul></div>
   </div>
 
@@ -211,14 +219,15 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);border-top:1px solid va
   <div class="grid2">
     <div class="box"><h3>紅葉（11/9 查）</h3><ul>
       <li><mark class="p">河口湖楓葉迴廊</mark>：11/6 五成轉色，預估見頃 <mark class="t">11/10 起</mark>、落葉 11/23 起 → 11/19–20 在見頃後段。<a href="https://weathernews.jp/koyo/spot/24904/">ウェザーニュース</a></li>
+      <li><mark class="p">高尾山</mark>：預估見頃 <mark class="t">11/15 起</mark> → 11/20 或 11/23 都在盛期。<a href="https://tenki.jp/kouyou/3/16/34655.html">tenki.jp</a></li>
       <li><mark class="p">神宮外苑銀杏</mark>：預估見頃 <mark class="t">11/24 起</mark> → 11/20 五到七成黃，11/23 幾乎全黃。<a href="https://tabibei.com/jingugaien-autumnleaf/">預測</a></li>
       <li>忠靈塔：無 2026 官方更新，慣例 11 月中下旬。</li>
     </ul></div>
     <div class="box"><h3>氣溫與衣物</h3><ul>
       <li>河口湖 11 月下旬：白天 10–13°C，夜間 <mark class="w">-1～3°C</mark>。迴廊夜間站著看體感更低。</li>
-      <li>東京市區：14–16°C／7–9°C。</li>
+      <li>高尾山 11/23：山麓 10–13°C、山頂 5–8°C；東京市區 14–16°C／7–9°C。</li>
       <li><mark class="k">發熱衣＋中層＋防風羽絨</mark>，毛帽、手套、圍巾、暖暖包。厚外套穿在身上，背包只放中層。</li>
-      <li>厚襪＋防滑鞋（迴廊沿梨川夜間濕滑）。忠靈塔洋蔥式。折傘一支。</li>
+      <li>厚襪＋防滑鞋（迴廊沿梨川夜間濕滑）。忠靈塔與高尾山洋蔥式。折傘一支。</li>
     </ul></div>
   </div>
 </section>
@@ -241,17 +250,17 @@ const KIND={air:'#7fb3ff',rail:'#9ec3ff',city:'#ffd166',shop:'#ff8fb1',nature:'#
 
 /* ---------- data ---------- */
 const DAYS = [
-{ id:'day1', n:1, date:'11/19 四', title:'兵分兩路，上富士山看夜楓', color:'var(--d1)',
+{ id:'day1', n:1, date:'11/19 四', title:'新宿集合，上富士山看夜楓', color:'var(--d1)',
   meta:['🌤 河口湖 夜間 0–3°C','🍁 迴廊見頃後段','🏨 超級飯店富士河口湖（最晚 24:00 入住）'],
-  summary:'A 早班機先到東京採買，B 中午落地直奔新宿會合。{k|Plan A 只比 Plan C 早 31 分}，所以以 {t|16:30 甲斐路} 為基準，誰都不用趕。晚餐在車上吃駅弁，到河口湖直接計程車去楓葉迴廊，回程車要事先約。',
+  summary:'A 早班機先到東京，集合前自由逛街採買；B 中午落地直奔新宿。兩人在新宿會合搭 {t|16:30 甲斐路}，{t|18:38} 到河口湖。{k|到站看時間}：19:30 前到就先去楓葉迴廊，晚了就直奔飯店泡溫泉，迴廊改 Day 2 早上。晚餐在車上吃駅弁。',
   map:{view:{clon:139.57,clat:35.57,dlat:0.85},
     nodes:[
       {id:'nrt',lon:140.386,lat:35.772,dx:-18,dy:-26,e:'✈️',n:'成田機場 T1',k:'air',note:['黑貓寄行李到東京飯店'],at:'b'},
       {id:'nip',lon:139.771,lat:35.728,dx:40,dy:-52,e:'🔁',n:'日暮里',k:'rail',note:['B：轉山手線到新宿'],at:'t'},
-      {id:'tyo',lon:139.767,lat:35.681,dx:30,dy:52,e:'🚉',n:'東京車站',k:'city',note:['A：一番街採買＋駅弁'],at:'r'},
-      {id:'sjk',lon:139.700,lat:35.690,dx:-3,dy:-48,e:'🏙️',n:'新宿',k:'city',note:['16:30 甲斐路'],at:'t'},
+      {id:'tyo',lon:139.767,lat:35.681,dx:30,dy:52,e:'🚉',n:'東京車站',k:'city',note:['A：自由逛街採買＋駅弁'],at:'r'},
+      {id:'sjk',lon:139.700,lat:35.690,dx:-3,dy:-48,e:'🏙️',n:'新宿',k:'city',note:['兩人集合・16:30 甲斐路'],at:'t'},
       {id:'otk',lon:138.940,lat:35.611,dx:0,dy:-62,e:'🔁',n:'大月',k:'rail',note:['9 分轉乘・特急券 ¥400'],at:'r'},
-      {id:'kwg',lon:138.765,lat:35.499,dx:60,dy:-30,e:'🚉',n:'河口湖站',k:'rail',note:['18:38 到，排計程車'],at:'r'},
+      {id:'kwg',lon:138.765,lat:35.499,dx:60,dy:-30,e:'🚉',n:'河口湖站',k:'rail',note:['18:38 到，看時間決定'],at:'r'},
       {id:'mmj',lon:138.753,lat:35.520,dx:-2,dy:-50,e:'🍁',n:'楓葉迴廊',k:'nature',note:['19:10–20:00，20:00 上車'],at:'r'},
       {id:'htl',lon:138.775,lat:35.488,dx:52,dy:36,e:'🏨',n:'超級飯店',k:'hotel'},
     ],
@@ -263,58 +272,154 @@ const DAYS = [
   steps:[
    {when:'06:30–08:00',who:'a',title:'成田 T1 落地、寄行李',body:'通關後到 {p|1F 黑貓櫃台}（北翼／南翼都有，06:30 起）寄大行李到東京飯店，Day 2 進飯店就有。{!|飯店要先定案才有地址}。',price:'宅急便約 ¥2,500/件',why:'上富士山只帶背包',tags:['must'],links:[L('成田空港 手荷物宅配','https://www.narita-airport.jp/ja/service/delivery/baggage/')]},
    {when:'08:00–09:30',who:'a',title:'N\'EX 直達東京車站',body:'Skyliner 到的是日暮里，不順路。',price:'¥3,070',why:'東京一番街 10:00 開門',tags:['ticket'],links:[]},
-   {when:'10:00–13:45',who:'a',title:'東京車站一番街採買',body:'數碼寶貝、吉伊卡哇らんど（{x|有入店預約制，前一天查官網}）。買好 {k|兩人份駅弁}，這是今天的晚餐。',price:'駅弁約 ¥1,200×2',why:'屋台 19:00 收攤，晚餐只能靠車上',tags:[],links:[]},
+   {when:'10:00–13:45',who:'a',title:'集合前自由逛街採買',body:'東京車站一番街、丸之內或直接到新宿逛都可以。數碼寶貝、吉伊卡哇らんど（{x|有入店預約制，前一天查官網}）。買好 {k|兩人份駅弁}，這是今天的晚餐。',price:'駅弁約 ¥1,200×2',why:'屋台 19:00 收攤，晚餐只能靠車上',tags:[],links:[]},
    {when:'13:45–14:15',who:'a',title:'中央線快速到新宿，買好兩人的票',body:'綠色窗口或指定席售票機買 {x|乘車券 新宿→河口湖}＋{x|座席未指定券 新宿→大月} 兩人份。未指定券可上當天任一班甲斐路，坐燈號紅色的空位。到 {p|9/10 番線} 等。',price:'乘車券約 ¥2,600＋特急券約 ¥1,020',why:'Plan A／C 同一張票都能用',tags:['ticket'],links:[L('かいじ 停車駅・料金','https://tabiblo007.com/kaiji-stops/')]},
    {when:'12:00–13:30',who:'b',title:'成田 T1 落地、寄行李、買 Skyliner',body:'入境尖峰抓 45–75 分（先填 Visit Japan Web）。黑貓寄行李 10–15 分 → {p|B1F 京成「成田空港」站} 售票機買 Skyliner。',price:'Skyliner ¥2,580',why:'',tags:['ticket'],links:[L('京成 Skyliner 時刻表','https://www.keisei.co.jp/keisei/tetudou/skyliner/jp/traffic/skyliner_timetable.php')]},
    {when:'13:58 / 14:18 / 14:38 / 14:59',who:'b',title:'Skyliner → 日暮里',body:'到日暮里各 {t|14:38 / 15:04 / 15:18 / 15:38}。京成→JR 連通閘門 3–5 分，搭 {p|山手線內回（池袋・新宿方面）} 約 21 分到新宿，再走 5–7 分到特急月台。13:58 那班才趕得上 Plan A；{!|最晚要搭 14:59 那班}，再晚就錯過 16:30。',price:'山手線 ¥210',why:'',tags:['must'],links:[]},
    {when:'16:30',title:'甲斐路（甲府行）→ 17:31 大月',body:'{k|Plan C 基準方案}。整點半一班，錯過就等到 17:30（河口湖 19:35 才到）。車上吃駅弁。Plan A：B 搭到 13:58 Skyliner 才可能，15:30 甲斐路 35 號 → 16:56 普通 → 18:07 河口湖，只早 31 分。',price:'已含在新宿買的票',why:'準點、票不綁班次',tags:['must'],links:[L('新宿駅 特急時刻 NAVITIME','https://www.navitime.co.jp/diagram/timetable?node=00004254&displayLine=00000019&updown=1')]},
    {when:'17:31–17:40',title:'大月轉フジサン特急 5 號',body:'JR→富士急有連通閘門，{!|轉乘只有 9 分}。富士急窗口或售票機買自由席特急券，來不及就上車補票或改搭 {t|17:47} 普通車（18:51 到，只晚 13 分）。',price:'特急券約 ¥400',why:'18:38 到河口湖',tags:['ticket'],links:[L('富士急 大月駅 時刻表','https://www.fujikyu-railway.jp/station/timetable.php?no=1')]},
-   {when:'18:38',title:'到河口湖站：先買宵夜，再排計程車',body:'出站 {p|Lawson/7-11} 買泡麵飲料帶著。飯店旁 BELL 超市 21:00（冬季 20:00）就關，迴廊附近沒有便利商店。站前計程車乘車處到 {p|楓葉迴廊}（北岸，約 5 km），跟司機說「もみじ回廊、久保田一竹美術館の近く」。周遊巴士紅線 {!|末班 17:45}，晚上沒有巴士。上車前打飯店說 20:30 左右到。',price:'計程車約 ¥2,000–2,500',why:'',tags:['must'],links:[L('河口湖駅 紅線乘車處','https://www.trvlogue.com/ja/kawaguchiko-oishi-park-bus')]},
-   {when:'19:10–20:00',title:'楓葉迴廊 夜楓',body:'燈飾到 {t|21:00}，屋台 {t|19:00} 收。梨川沿岸約 60 棵楓樹，走到湖邊回頭看。{!|回程才是難點}：河口湖沒有任何叫車 App（GO/Uber 都不涵蓋），去程就跟司機約 {t|20:00} 在迴廊入口回接直達飯店，或請飯店櫃台（☎ 0555-20-9100）叫車。',price:'免費',why:'紅葉祭 11/7–11/29',tags:['free'],links:[L('富士河口湖紅葉まつり 2026','https://www.enjoytokyo.jp/event/2089582/'),L('河口湖沒有叫車 App','https://car-me.jp/taxi/articles/38450')]},
+   {when:'18:38',title:'到河口湖站：看時間決定去不去迴廊',body:'{k|19:30 前到站就先去迴廊}（燈飾到 21:00，至少看得到 1 小時）；甲斐路誤點或改搭 17:30 那班、19:30 後才到，就{k|直奔飯店泡溫泉}，迴廊改 Day 2 早上。出站 {p|Lawson/7-11} 買泡麵飲料帶著。飯店旁 BELL 超市 21:00（冬季 20:00）就關，迴廊附近沒有便利商店。站前計程車乘車處到 {p|楓葉迴廊}（北岸，約 5 km），跟司機說「もみじ回廊、久保田一竹美術館の近く」。周遊巴士紅線 {!|末班 17:45}，晚上沒有巴士。上車前打飯店說 20:30 左右到。',price:'計程車約 ¥2,000–2,500',why:'',tags:['must'],links:[L('河口湖駅 紅線乘車處','https://www.trvlogue.com/ja/kawaguchiko-oishi-park-bus')]},
+   {when:'19:10–20:00',title:'楓葉迴廊 夜楓',body:'{k|叫不到車的最後手段是走回飯店}：沿湖畔道路往東再過河口湖大橋約 6 km、75–90 分，夜裡 0°C 上下、部分路段很暗，手機手電筒要有電。燈飾到 {t|21:00}，屋台 {t|19:00} 收。梨川沿岸約 60 棵楓樹，走到湖邊回頭看。{!|回程才是難點}：河口湖沒有任何叫車 App（GO/Uber 都不涵蓋），去程就跟司機約 {t|20:00} 在迴廊入口回接直達飯店，或請飯店櫃台（☎ 0555-20-9100）叫車。',price:'免費',why:'紅葉祭 11/7–11/29',tags:['free'],links:[L('富士河口湖紅葉まつり 2026','https://www.enjoytokyo.jp/event/2089582/'),L('河口湖沒有叫車 App','https://car-me.jp/taxi/articles/38450')]},
    {when:'20:30',title:'超級飯店富士河口湖 Check-in、泡溫泉',body:'{p|船津 3062-5}，車站南邊 1.5 km。最晚入住 {t|24:00}，溫泉到翌朝 09:00，早餐 07:00–09:00。Welcome bar 到 21:00，20:30 進門還來得及喝一杯。',price:'已付',why:'',tags:[],links:[L('スーパーホテル富士河口湖 官網','https://www.superhotel.co.jp/s_hotels/kawaguchiko/')]},
   ],
   branches:[
    {kind:'alt',title:'省錢版 Plan B：中央特快',body:'15:36 或 15:44 中央特快（高尾行）→ 高尾 16:44 大月行 → 大月 17:40 特急 → 18:38。不用 JR 特急券，但換三次車、站著機率高。只在甲斐路滿座時用。'},
    {kind:'alt',title:'高速巴士',body:'バスタ新宿 16:15 → 18:00、16:45 → 18:20，約 ¥2,200，比鐵路省一半。座位綁班次，B 晚到就作廢；週四傍晚中央道下行塞車常誤點 20–40 分。京王便與富士急便預約網站不同。'},
-   {kind:'risky',title:'A 先走、B 單飛（最高 CP）',body:'A 10:30 富士回遊 15 號直達 12:24 河口湖，15:00 入住、買宵夜、預約回接計程車，16:00–17:30 獨享黃昏＋藍調版迴廊；18:38 在站前接 B。代價：A 的東京車站採買移到 Day 6。目前未採用（兩人決定一起上山）。'},
+   {kind:'alt',title:'到站太晚：直奔飯店',body:'19:30 後才到河口湖就不去迴廊：站前計程車 5 分到飯店（約 ¥1,000），買好宵夜、泡溫泉（到翌朝 09:00）。Day 2 方案 A 早上 07:45 叫車去迴廊看晨光版，人比晚上少；方案 B 要趕 08:03 的車去忠靈塔，迴廊就只能放棄。'},
   ]},
 
-{ id:'day2', n:2, date:'11/20 五', color:'var(--d2)' },
-
-{ id:'day3', n:3, date:'11/21 六', title:'發售日：倉庫店 → 下北澤 Bar 待到晚上 → 新宿牛舌', color:'var(--d3)',
-  meta:['🎯 BX-54 / CX-20 發售日','⏰ Bar 12:45–20:30','🥩 21:00 牛たんの檸檬'],
-  summary:'{k|今天是陀螺發售日}：BX-54（¥1,600）、CX-20（¥6,600）。早上去足立區島根的倉庫玩具店，11:00 離開直奔下北澤，{t|12:45} 進 Bar 一路打到 {t|20:30}。小田急一站到新宿，{t|21:00} 吃牛たんの檸檬（{k|週六最後點餐 21:45}）。秋葉原不排今天，之後再找時間。',
-  map:{view:{clon:139.74,clat:35.70,dlat:0.2},labels:['足立区','千代田区','世田谷区','新宿区'],
+{ id:'day2', n:2, date:'11/20 五', title:'纜車＋河口湖慢遊 → 富士回遊 → 新宿美食 → 六本木（方案 A）', color:'var(--d2)',
+  meta:['🚡 天上山纜車','♨️ 河口湖慢遊・名物','🚆 富士回遊 32 號 14:08'],
+  summary:'不去忠靈塔，早上搭天上山纜車看富士山（昨晚沒去迴廊就先叫車去看晨光版），中午吃餺飥、湖畔慢遊，{t|14:08} 富士回遊 32 號直達新宿。{t|17:00} 牛たんの檸檬、{t|19:00} 燒肉，再去六本木點燈和東京鐵塔，23:00 左右入住飯田橋。',
+  map:{view:{clon:139.25,clat:35.58,dlat:0.60},
     nodes:[
-      {id:'thl',lon:139.745,lat:35.702,dx:-46,dy:-34,e:'🏨',n:'東京飯店',k:'hotel',note:['09:00 出發'],at:'l'},
-      {id:'kts',lon:139.805,lat:35.749,dx:48,dy:-6,e:'🔁',n:'北千住',k:'rail',note:['計程車 ¥2,000 ×2','千代田線直通小田急'],at:'r'},
-      {id:'ada',lon:139.800,lat:35.785,dx:-60,dy:14,e:'📦',n:'足立島根 倉庫店',k:'shop',note:['10:00–11:00','11:00 一定要離開'],at:'l'},
-      {id:'smk',lon:139.668,lat:35.661,dx:-20,dy:40,e:'🌀',n:'下北澤 BEYBLADE BAR',k:'bar',note:['12:45–20:30','一桌一個新品'],at:'l'},
-      {id:'sjk',lon:139.700,lat:35.690,dx:-60,dy:-4,e:'🥩',n:'新宿 牛たんの檸檬',k:'food',note:['21:00 自由席或預約','最後點餐 21:45'],at:'l'},
+      {id:'htl',lon:138.775,lat:35.488,dx:70,dy:40,e:'🏨',n:'超級飯店',k:'hotel',note:['07:00 早餐・溫泉'],at:'r'},
+      {id:'mmj',lon:138.753,lat:35.520,dx:40,dy:-62,e:'🍁',n:'楓葉迴廊（昨晚沒去才來）',k:'nature',dim:true},
+      {id:'rop',lon:138.760,lat:35.510,dx:-30,dy:52,e:'🚡',n:'天上山纜車',k:'nature',note:['往復 ¥1,000'],at:'b'},
+      {id:'kwg',lon:138.765,lat:35.499,dx:80,dy:-34,e:'🚉',n:'河口湖站',k:'rail',note:['餺飥・湖畔慢遊','14:08 富士回遊 32 號'],at:'r'},
+      {id:'sjk',lon:139.700,lat:35.690,dx:-70,dy:40,e:'🥩',n:'新宿：牛舌＋燒肉',k:'food',note:['17:00 牛たんの檸檬','19:00 燒肉'],at:'l'},
+      {id:'rpg',lon:139.729,lat:35.660,dx:-75,dy:80,e:'✨',n:'六本木けやき坂',k:'light',note:['點燈到 22:00'],at:'l'},
+      {id:'ttw',lon:139.745,lat:35.659,dx:-5,dy:95,e:'🗼',n:'東京鐵塔',k:'shop'},
+      {id:'thl',lon:139.745,lat:35.702,dx:34,dy:-50,e:'🏨',n:'飯田橋 飯店',k:'hotel',note:['23:00 Check-in'],at:'l'},
     ],
     routes:[
-      {seq:['thl','kts','ada'],color:'var(--d3)',label:'去程：飯店 → 北千住 → 倉庫店'},
-      {seq:['ada','kts','smk','sjk','thl'],color:'var(--key)',label:'回程：北千住 → 下北澤 Bar → 新宿牛舌 → 飯店'},
+      {seq:['htl','rop','kwg'],color:'var(--d2)',label:'早上：纜車 → 河口湖站'},
+      {seq:['kwg','sjk','rpg','ttw','thl'],color:'var(--key)',label:'下午：富士回遊 → 新宿美食 → 六本木 → 東京鐵塔 → 飯店'},
     ]},
   steps:[
-   {when:'09:00',title:'出飯店到北千住',body:'飯田橋：總武線到秋葉原轉日比谷線約 35 分；龜戶：錦糸町轉半藏門線直通約 25 分。',price:'約 ¥300',why:'',tags:[],links:[]},
-   {when:'09:40–09:55',title:'北千住站前計程車到島根 2 丁目',body:'{p|足立区島根 2-25-17（マスセット本社ビル附近）}，約 4 km。最近車站梅島站步行 15 分、西新井站 17 分。',price:'計程車約 ¥2,000',why:'',tags:[],links:[]},
-   {when:'10:00–11:00',title:'倉庫玩具店',body:'營業時間沒查到，以 10:00 開門估，出發前確認。郊區玩具店發售日會有配貨而且獵人少。{!|11:00 一定要離開}。',price:'—',why:'倉庫價舊品＋發售日新品',tags:['must'],links:[]},
-   {when:'11:00–11:15',title:'計程車回北千住',body:'比走到梅島再轉車省 15 分。省錢版：走 15 分到梅島 → 東武 8 分到北千住，但緩衝只剩 30 分，不建議。',price:'約 ¥2,000',why:'',tags:[],links:[]},
-   {when:'11:20–12:15',title:'千代田線直通小田急到下北澤',body:'北千住選「{k|小田急線直通}」的班次可直達下北澤；不是直通就在 {p|代々木上原} 同月台換小田急一站。約 55 分，留 30 分緩衝。',price:'約 ¥400',why:'',tags:['must'],links:[]},
-   {when:'12:45–20:30',title:'BEYBLADE BAR TOKYO，從第一場打到晚上',body:'午餐在 Bar 吃套餐，限定特調拿杯墊；晚上只點輕的，{k|留肚子給牛舌}。發售日 Bar 一定有新品但 {k|一桌一個}，被店家認定為掃貨者會進黑名單。{t|20:30} 準時離開。',price:'套餐約 ¥2,000＋飲料',why:'發售日當天保底',tags:['must'],links:[]},
-   {when:'20:30–20:50',title:'小田急 下北澤 → 新宿',body:'急行一站約 7 分。新宿西口出站往 {p|小滝橋通り} 方向走 5 分，{p|西新宿 7 丁目 YS ビル B1F}。',price:'¥170',why:'',tags:['walk'],links:[]},
-   {when:'21:00–22:00',title:'新宿焼肉 牛たんの檸檬 総本店',body:'{!|週六營業到 22:30、最後點餐 21:45}，定食 60 分鐘制。{x|TableCheck 先試訂 21:00}，客滿就盯取消或直接排自由席，21:00 已過尖峰。名物極み厚切牛舌定食約 ¥2,990，遲到 5 分鐘要先打電話 ☎ 03-6279-3997。',price:'約 ¥2,500–3,000／人',why:'厚切牛舌名店',tags:['ticket'],links:[L('TableCheck 牛たんの檸檬','https://www.tablecheck.com/ja/shops/gyutannolemon/reserve'),L('官網','https://www.store-gyutan-lemon.com/')]},
-   {when:'22:15',title:'回飯店',body:'新宿到飯田橋 總武線 15 分；龜戶約 35 分。',price:'約 ¥200',why:'',tags:[],links:[]},
+   {when:'07:00–07:45',title:'飯店早餐、晨間溫泉',body:'早餐 07:00–09:00，溫泉到 09:00。背包整理好，大行李已經寄到東京。',price:'含',why:'',tags:['free'],links:[]},
+   {when:'07:45–08:40',title:'（昨晚沒去才做）叫車去楓葉迴廊看晨光版',body:'櫃台叫車約 10 分，早上人少、逆光的紅葉很透。看 30–40 分後叫車到纜車站。昨晚已經看過就跳過這段，直接 08:30 纜車。',price:'計程車約 ¥2,500＋¥2,000',why:'補看迴廊',tags:[],links:[]},
+   {when:'08:30–10:00',title:'天上山纜車（河口湖～富士山パノラマロープウェイ）',body:'首班 {t|08:30}，早上富士山最清楚。山頂展望台 45–60 分。{!|強風會停駛}，出門前看官網。票現場買。下山走 10–15 分到河口湖站。',price:'往復 ¥1,000',why:'富士山＋河口湖全景',tags:['ticket'],links:[L('纜車 營業時間・料金','https://www.nap-camp.com/mag/?p=103057')]},
+   {when:'10:30–11:30',title:'名物午餐：ほうとう不動',body:'河口湖站周邊，南瓜味噌餺飥麵是山梨代表名物。',price:'約 ¥1,300',why:'山梨名物',tags:[],links:[L('ほうとう不動','https://www.gltjp.com/ja/directory/item/12127/')]},
+   {when:'11:30–13:45',title:'河口湖慢遊或再泡一次溫泉',body:'湖畔散步拍富士山、站前買伴手禮；想泡湯就找車站周邊的日歸溫泉（出發前查營業時間）。{!|13:45 前回到河口湖站}。',price:'—',why:'',tags:[],links:[]},
+   {when:'14:08',title:'富士回遊 32 號 河口湖 → 16:08 新宿',body:'全車指定席，{x|えきねっと訂「河口湖→新宿」}。直達新宿的上行班次只有下午五班：{t|14:08}／14:58／15:39／16:48／17:41，錯過下一班 14:58 到新宿 16:59，就只來得及吃燒肉。',price:'乘車券＋指定席約 ¥4,300',why:'不用轉車',tags:['ticket','must'],links:[L('特急富士回遊 時刻表','https://jr-group.jp/fujikaiyu-timetable/')]},
+   {when:'16:08',title:'到新宿，走到西口',body:'出站往 {p|西口・小滝橋通り} 走 5–7 分到 {p|西新宿 7 丁目 YS ビル B1F}。背包隨身。',price:'',why:'',tags:['walk'],links:[]},
+   {when:'16:45–18:00',title:'牛たんの檸檬 新宿総本店（17:00 開門第一輪）',body:'網路預約已滿，{k|16:45 前到門口排自由席}，17:00 開門第一輪最好進。名物極み厚切牛舌定食，{!|定食 60 分鐘制}。',price:'約 ¥2,500–3,000／人',why:'厚切牛舌名店',tags:[],links:[L('TableCheck（盯取消）','https://www.tablecheck.com/ja/shops/gyutannolemon/reserve'),L('官網','https://www.store-gyutan-lemon.com/')]},
+   {when:'18:00–19:00',title:'新宿消化一下',body:'西口、歌舞伎町周邊逛逛，或先把戰利品寄放置物櫃。',price:'',why:'',tags:[],links:[]},
+   {when:'19:00–20:30',title:'燒肉晚餐（店家待定）',body:'{k|19:00 以後}，店家與預約時間待定。{!|富士回遊延誤或改搭晚班，就跳過牛舌只吃燒肉}。',price:'—',why:'',tags:['ticket'],links:[]},
+   {when:'20:30–20:45',title:'大江戶線 新宿 → 六本木',body:'都營大江戶線約 10 分，六本木站 3 號出口走 5 分到六本木ヒルズ。',price:'¥220',why:'',tags:[],links:[]},
+   {when:'20:45–21:30',title:'六本木けやき坂イルミネーション',body:'11/5–12/25，點燈 {t|17:00–22:00}。約 400 m、SNOW & BLUE，從六本木ヒルズ側往下走，回頭看{p|東京鐵塔}在坡道盡頭。毛利庭園到 23:00。',price:'免費',why:'',tags:['free'],links:[L('六本木ヒルズ けやき坂 官方','https://www.roppongihills.com/sp/christmashills/102/')]},
+   {when:'21:30–22:15',title:'東京鐵塔景觀 FamilyMart',body:'六本木走到東京鐵塔約 20 分（或大江戶線一站到 {p|赤羽橋}）。{!|店名還沒確認}，把 Google Maps 連結給我就幫你標進地圖。東京鐵塔每正點有燈光演出。',price:'—',why:'',tags:['walk'],links:[]},
+   {when:'22:30–23:00',title:'大江戶線 赤羽橋 → 飯田橋，Check-in',body:'直達約 15 分，不用轉車。領黑貓寄來的行李。{!|先跟飯店說 23:00 左右才到}。',price:'¥220',why:'',tags:[],links:[]},
   ],
   branches:[
-   {kind:'main',title:'倉庫店 → Bar 全天 → 新宿牛舌',body:'秋葉原不排在今天，Day 4 白天（選項 B）或 Day 5 再去。'},
-   {kind:'alt',title:'分頭：A 搶 Yodobashi 首波',body:'A 09:00 到秋葉原 Yodobashi 排隊（09:30 開門），搶 BX-54 / CX-20 / 遊戲王 / 數碼電子雞（通常限購 1），11:30 從新御茶ノ水搭千代田線 25 分直達下北澤，12:30 前到 Bar 會合。B 走倉庫店那條線。'},
+   {kind:'main',title:'方案 A：不去忠靈塔',body:'上方時間軸。早上纜車、河口湖慢遊，14:08 富士回遊。'},
+   {kind:'alt',title:'方案 B：去忠靈塔',body:'08:03 普通車到下吉田，忠靈塔＋吉田うどん，14:21 在下吉田上同一班富士回遊 32 號。上方切到方案 B 看。'},
+   {kind:'alt',title:'想多待河口湖：改搭 14:58 的 36 號',body:'16:59 到新宿，牛舌第一輪趕不上，就只吃 19:00 燒肉。'},
   ]},
 
-{ id:'day4', n:4, date:'11/22 日', color:'var(--d4)' },
+{ id:'day3', n:3, date:'11/21 六', title:'發售日：倉庫店 → 下北澤 Bar，14:30 後分頭', color:'var(--d3)',
+  meta:['🎯 BX-54 / CX-20 發售日','⏰ Bar 12:45 起','👥 14:30 後 A／B 分開'],
+  summary:'{k|今天是陀螺發售日}。兩人 09:00 從飯田橋出發，先去足立區島根的倉庫玩具店，11:00 離開直奔下北澤，{t|12:45} 進 Bar。{t|14:30} 之後分頭：{k|旅客 A 留在 Bar 到 20:00 最後一場}、21:00 前離開；旅客 B 自由行動。',
+  map:{view:{clon:139.74,clat:35.70,dlat:0.2},labels:['足立区','千代田区','世田谷区','新宿区'],
+    nodes:[
+      {id:'thl',lon:139.745,lat:35.702,dx:-46,dy:-34,e:'🏨',n:'飯田橋 飯店',k:'hotel',note:['09:00 出發'],at:'l'},
+      {id:'kts',lon:139.805,lat:35.749,dx:48,dy:-6,e:'🔁',n:'北千住',k:'rail',note:['計程車 ¥2,000 ×2','千代田線直通小田急'],at:'r'},
+      {id:'ada',lon:139.800,lat:35.785,dx:-60,dy:14,e:'📦',n:'足立島根 倉庫店',k:'shop',note:['10:00–11:00','11:00 一定要離開'],at:'l'},
+      {id:'smk',lon:139.668,lat:35.661,dx:-20,dy:40,e:'🌀',n:'下北澤 BEYBLADE BAR',k:'bar',note:['12:45 兩人','A 待到 20:00 後'],at:'l'},
+      {id:'sjk',lon:139.700,lat:35.690,dx:-60,dy:-4,e:'🥩',n:'新宿（A 宵夜備案）',k:'food',dim:true},
+    ],
+    routes:[
+      {seq:['thl','kts','ada','kts','smk'],color:'var(--d3)',label:'兩人：飯店 → 倉庫店 → 下北澤'},
+      {seq:['smk','thl'],color:'var(--key)',label:'旅客 A：21:00 前離開 → 飯店'},
+    ]},
+  steps:[
+   {when:'09:00',title:'飯田橋出發到北千住',body:'總武線到秋葉原轉日比谷線約 35 分。（若改住龜戶：錦糸町轉半藏門線直通約 25 分。）',price:'約 ¥300',why:'',tags:[],links:[]},
+   {when:'09:40–09:55',title:'北千住站前計程車到島根 2 丁目',body:'{p|足立区島根 2-25-17（マスセット本社ビル附近）}，約 4 km。最近車站梅島站步行 15 分、西新井站 17 分。',price:'計程車約 ¥2,000',why:'',tags:[],links:[]},
+   {when:'10:00–11:00',title:'倉庫玩具店',body:'營業時間沒查到，以 10:00 開門估，出發前確認。郊區玩具店發售日會有配貨而且獵人少。{!|11:00 一定要離開}。',price:'—',why:'倉庫價舊品＋發售日新品',tags:['must'],links:[]},
+   {when:'11:00–11:15',title:'計程車回北千住',body:'比走到梅島再轉車省 15 分。',price:'約 ¥2,000',why:'',tags:[],links:[]},
+   {when:'11:20–12:15',title:'千代田線直通小田急到下北澤',body:'北千住選「{k|小田急線直通}」的班次可直達下北澤；不是直通就在 {p|代々木上原} 同月台換小田急一站。約 55 分，留 30 分緩衝。',price:'約 ¥400',why:'',tags:['must'],links:[]},
+   {when:'12:45–14:30',title:'BEYBLADE BAR TOKYO（兩人）',body:'已預約。午餐在 Bar 吃套餐，限定特調拿杯墊。發售日 Bar 一定有新品但 {k|一桌一個}，被店家認定為掃貨者會進黑名單。',price:'套餐約 ¥2,000',why:'發售日當天保底',tags:['must'],links:[]},
+   {when:'14:30–',who:'b',title:'旅客 B 自由行動',body:'行程待定。',price:'',why:'',tags:[],links:[]},
+   {when:'14:30–20:30',who:'a',title:'旅客 A 留在 Bar 到最後一場',body:'最後一場 {t|20:00} 開始，{t|21:00 前}離開。晚餐在 Bar 或下北澤解決。',price:'',why:'',tags:[],links:[]},
+   {when:'21:00 前',who:'a',title:'離開下北澤：直接回飯店，或塞一個宵夜',body:'回飯田橋：小田急到新宿轉總武線約 30 分。想塞東西：{k|Day 2 沒吃到檸檬牛舌的話}，小田急一站到新宿，週六最後點餐 {t|21:45}；或在下北澤吃拉麵、逛到深夜的古著店。',price:'約 ¥300',why:'',tags:[],links:[L('牛たんの檸檬 TableCheck','https://www.tablecheck.com/ja/shops/gyutannolemon/reserve')]},
+  ],
+  branches:[
+   {kind:'alt',title:'分頭：A 先搶 Yodobashi 首波（可選）',body:'A 09:00 到秋葉原 Yodobashi 排隊（09:30 開門），11:30 從新御茶ノ水搭千代田線 25 分直達下北澤，12:30 前到 Bar 會合；B 走倉庫店那條線。'},
+  ]},
 
-{ id:'day5', n:5, date:'11/23 一・祝', color:'var(--d5)' },
+{ id:'day4', n:4, date:'11/22 日', title:'分頭日：A 下北澤 Bar 一整天／B 鎌倉・江之島', color:'var(--d4)',
+  meta:['🌀 A：Bar 到 20:00 後','🏀 B：灌籃高手平交道','🌊 江之島夕陽'],
+  summary:'{k|旅客 A} 整天在下北澤 BEYBLADE BAR，待到 20:00 最後一場之後。{k|旅客 B} 去鎌倉、江之島，下方是幫 B 排的建議路線，B 有自己的規劃就以他的為準。週日鎌倉人很多，{!|江之電下午在鎌倉站排隊可能 30 分以上}。',
+  map:{view:{clon:139.62,clat:35.47,dlat:0.56},labels:['世田谷区','新宿区'],
+    nodes:[
+      {id:'thl',lon:139.745,lat:35.702,dx:60,dy:22,e:'🏨',n:'飯田橋 飯店',k:'hotel'},
+      {id:'smk',lon:139.668,lat:35.661,dx:-70,dy:10,e:'🌀',n:'A：下北澤 Bar',k:'bar',note:['整天・20:00 最後一場'],at:'l'},
+      {id:'kmk',lon:139.551,lat:35.319,dx:85,dy:-45,e:'⛩️',n:'B：鎌倉・鶴岡八幡宮',k:'city',note:['09:30 小町通り'],at:'r'},
+      {id:'hse',lon:139.533,lat:35.312,dx:70,dy:18,e:'🗿',n:'長谷：大佛・長谷寺',k:'nature',note:['紅葉 11 月下旬'],at:'r'},
+      {id:'kkm',lon:139.503,lat:35.306,dx:-20,dy:-62,e:'🏀',n:'鎌倉高校前 平交道',k:'nature',note:['灌籃高手片頭'],at:'l'},
+      {id:'eno',lon:139.481,lat:35.300,dx:-80,dy:14,e:'🌊',n:'江之島',k:'nature',note:['夕陽・Sea Candle'],at:'t'},
+    ],
+    routes:[
+      {seq:['thl','smk','thl'],color:'var(--d4)',label:'旅客 A：飯店 ⇄ 下北澤'},
+      {seq:['thl','kmk','hse','kkm','eno','thl'],color:'var(--d6)',label:'旅客 B：鎌倉 → 長谷 → 江之電 → 江之島 → 小田急回新宿'},
+    ]},
+  steps:[
+   {when:'整天',who:'a',title:'下北澤 BEYBLADE BAR 一整天',body:'已預約，依預約場次進場，{t|20:00} 最後一場打完再走。今天不排秋葉原：發售第二天一般通路幾乎不會有貨，Bar 每場有販售上限、抽選制也已知道誰能買，留在 Bar 才有機會。',price:'',why:'',tags:['must'],links:[]},
+   {when:'21:00 左右',who:'a',title:'回飯店',body:'小田急到新宿轉總武線，到飯田橋約 30 分。',price:'約 ¥300',why:'',tags:[],links:[]},
+   {when:'08:00–09:30',who:'b',title:'飯田橋 → 鎌倉',body:'總武線到東京站轉 {p|JR 橫須賀線}直達鎌倉，約 75 分；或新宿搭湘南新宿ライン。',price:'約 ¥1,000',why:'',tags:[],links:[]},
+   {when:'09:30–11:30',who:'b',title:'鶴岡八幡宮、小町通り',body:'週日人潮 11:00 後變多，早點逛小町通吃點心。',price:'免費',why:'',tags:['walk','free'],links:[]},
+   {when:'11:45–13:30',who:'b',title:'江之電到長谷：鎌倉大佛、長谷寺',body:'長谷寺 11 月下旬紅葉，看海景展望台。大佛 ¥300、長谷寺 ¥400。{!|江之電鎌倉站中午後排隊會拉長}。',price:'約 ¥700＋江之電 ¥200',why:'',tags:['ticket'],links:[]},
+   {when:'14:00–16:40',who:'b',title:'鎌倉高校前站：灌籃高手平交道、七里ヶ浜',body:'江之電長谷 → {p|鎌倉高校前} 約 10 分。平交道就是片頭那個角度，{!|不要站在車道和鐵軌上拍，現場有警衛}。旁邊七里ヶ浜海灘看日落（16:30 左右），天氣好看得到富士山。',price:'免費',why:'灌籃高手聖地',tags:['free','walk'],links:[]},
+   {when:'17:00–18:30',who:'b',title:'江之島夜景',body:'江之電到江ノ島站，走弁天橋上島。島上燈飾「湘南の宝石」通常 11 月下旬開始，出發前看官網。',price:'展望燈台約 ¥500',why:'',tags:[],links:[]},
+   {when:'18:30–20:00',who:'b',title:'小田急 片瀬江ノ島 → 新宿 → 飯田橋',body:'快速急行約 70 分到新宿，再轉總武線 15 分。想省錢可以查小田急「江の島・鎌倉フリーパス」（含江之電全線），價格與購買條件出發前確認。',price:'約 ¥1,000',why:'',tags:['ticket'],links:[]},
+  ],
+  branches:[
+   {kind:'alt',title:'B 的反方向走法',body:'人潮想避開鎌倉站：新宿 → 小田急到片瀬江ノ島，上午江之島 → 江之電 → 鎌倉高校前 → 長谷 → 鎌倉，傍晚從鎌倉搭橫須賀線回東京。缺點是平交道看不到夕陽。'},
+  ]},
+
+{ id:'day5', n:5, date:'11/23 一・祝', title:'高尾山紅葉（勤勞感謝之日）', color:'var(--d5)',
+  meta:['🍁 11/15 起見頃，正值盛期','👥 祝日人潮全年前幾名','🌿 傍晚神宮外苑銀杏'],
+  summary:'整天的關鍵是{k|早}。07:0x 搭一般特急（免費、新宿始發有位子），{t|08:00} 首班纜車，走 1 號路下山避開排隊，11:30 高橋家、12:30 極楽湯，{t|14:15} Mt.TAKAO 號回新宿 15:09，再去外苑看黃昏銀杏。',
+  map:{view:{clon:139.52,clat:35.66,dlat:0.32},labels:['八王子市','新宿区','港区','千代田区'],
+    nodes:[
+      {id:'sjk',lon:139.700,lat:35.690,dx:-10,dy:-50,e:'🏙️',n:'新宿',k:'city',note:['07:0x 京王特急','回程 15:09 到'],at:'l'},
+      {id:'tko',lon:139.270,lat:35.632,dx:30,dy:46,e:'⛩️',n:'高尾山口',k:'rail',note:['08:00 首班纜車','14:15 Mt.TAKAO 號'],at:'r'},
+      {id:'top',lon:139.244,lat:35.625,dx:-6,dy:-62,e:'🍁',n:'高尾山頂',k:'nature',note:['1 號路・藥王院','天狗燒'],at:'r'},
+      {id:'soba',lon:139.272,lat:35.630,dx:96,dy:-8,e:'🍜',n:'高橋家・極楽湯',k:'onsen',note:['11:30 とろろそば','12:30 溫泉 ¥1,300'],at:'r'},
+      {id:'gai',lon:139.718,lat:35.676,dx:50,dy:44,e:'🍂',n:'神宮外苑銀杏',k:'nature',note:['16:15 黃昏版','11/23 最接近見頃'],at:'l'},
+    ],
+    routes:[
+      {seq:['sjk','tko','top','soba'],color:'var(--d5)',label:'去程：京王線 → 纜車 → 山頂 → 溫泉'},
+      {seq:['soba','tko','sjk','gai'],color:'var(--key)',label:'回程：Mt.TAKAO 號 → 新宿 → 外苑'},
+    ]},
+  steps:[
+   {when:'06:45',title:'出飯店到新宿',body:'飯田橋 JR 總武線 15 分；龜戶總武線直達約 35 分。',price:'',why:'',tags:[],links:[]},
+   {when:'07:0x–08:00',title:'京王線特急 新宿 → 高尾山口',body:'約 55 分，刷 IC。{k|去程不買座席指定}：京王ライナー 08:00 發 08:46 才到，纜車已大排長龍。',price:'約 ¥430',why:'',tags:['ticket'],links:[]},
+   {when:'08:00–08:30',title:'清滝站 首班纜車',body:'步行 5 分。祝日 {t|08:00–18:00}，15 分一班，這時候排隊最短；10:00 後隊伍拉到 40–60 分。吊椅 09:00 才開。',price:'單程 ¥490（可刷 Suica）',why:'',tags:['ticket'],links:[L('高尾登山電鉄 時刻・料金','https://www.takaotozan.co.jp/timeprice/')]},
+   {when:'08:30–10:30',title:'1 號路 → 藥王院 → 山頂',body:'約 50 分。早上富士山最清楚，山頂展望台拍完就往回走。',price:'免費',why:'',tags:['walk','free'],links:[L('高尾山 紅葉情報','https://tenki.jp/kouyou/3/16/34655.html')]},
+   {when:'10:30–11:30',title:'走 1 號路下山，買天狗燒',body:'步行約 50 分，避開纜車下行排隊。途中 {p|高尾山スミカ} 天狗燒約 10:00 開賣，看到沒排隊就買。',price:'天狗燒 ¥250',why:'',tags:['walk'],links:[]},
+   {when:'11:30–12:30',title:'高橋家 とろろそば',body:'10:00–17:30，不定休（☎ 042-661-0010）。11:30 到大約排 20 分，12:00 後更長。',price:'約 ¥1,300',why:'山麓名店',tags:[],links:[L('高橋家','https://www.hotpepper.jp/strJ000247812/')]},
+   {when:'12:30–14:00',title:'京王高尾山温泉 極楽湯',body:'高尾山口站旁，08:00–22:30。祝日下午人多，可能要等置物櫃。',price:'祝日 ¥1,300',why:'',tags:[],links:[L('極楽湯','https://www.gotokyo.org/jp/spot/693/index.html')]},
+   {when:'14:15',title:'Mt.TAKAO 2 號 → 15:09 新宿',body:'{x|座席指定 ¥400，京王チケットレス 11/16 07:00 開賣}。祝日下午回程電車擠到站不住，這 ¥400 值得。備案 15:15 的 4 號 → 16:07。',price:'¥430＋¥400',why:'',tags:['ticket','must'],links:[L('京王 Mt.TAKAO 號','https://www.keio.co.jp/zasekishitei/index_mt.html')]},
+   {when:'15:30–16:15',title:'新宿 → 信濃町 → 神宮外苑',body:'JR 總武線 6 分，步行 5 分。',price:'¥160',why:'',tags:['walk'],links:[]},
+   {when:'16:15–17:15',title:'神宮外苑銀杏並木 黃昏',body:'免費、公共道路。2026 預估見頃 {t|11/24 起}，11/23 是整趟最接近見頃的一天。2025 年點燈 11/22–11/30（16:30–19:30），2026 尚未公告。',price:'免費',why:'',tags:['free'],links:[L('神宮外苑 2026 見頃預測','https://tabibei.com/jingugaien-autumnleaf/')]},
+   {when:'17:30–',title:'新宿／秋葉原 最後補貨',body:'藥妝與宅物。',price:'',why:'',tags:[],links:[]},
+  ],
+  branches:[
+   {kind:'main',title:'原案：高尾山',body:'上方時間軸。'},
+   {kind:'alt',title:'若 Day 2 走分支 B：東京版',body:'09:00 新宿御苑（楓葉＋銀杏）→ 11:00 神宮外苑銀杏並木 → 13:00 池袋太陽城（Pokémon Center 到 20:00）→ 傍晚最後補貨。11/23 的銀杏比 11/20 更接近見頃。'},
+  ]},
 
 { id:'day6', n:6, date:'11/24 二', title:'返程', color:'var(--d6)',
   meta:['✈️ B 14:00','✈️ A 20:20','🚆 京成 11/21 改點'],
@@ -420,95 +525,54 @@ function dayMapSVG(map){
   return s+`</svg>`;
 }
 
-/* ---------- Day 2 / Day 4 / Day 5 的內容 ---------- */
-const DAY2_MAIN={
-  title:'忠靈塔 → 中午回新宿逛街', meta:['🗼 忠靈塔慣例見頃','🚆 10:45 一班車坐到高尾站換中央線','🛍️ 約 13:20 到新宿，下午自由'],
-  summary:'早上只做忠靈塔：{t|08:03} 普通車到下吉田，爬 398 階看五重塔＋富士山，{t|10:45} 在下吉田上普通車，一路坐到高尾站換中央線，{t|約 13:20} 到新宿。下午逛街、吃飯，晚上進東京飯店領行李。{k|整天不用任何預約票}，天上山纜車與河口湖餺飥這次不排。',
+/* ---------- 三個版本：覆寫 Day 2 / Day 4 / Day 5 ---------- */
+const DAY2_B={
+  title:'忠靈塔＋吉田うどん → 富士回遊 → 新宿美食 → 六本木（方案 B）', meta:['🗼 忠靈塔早上順光','🍜 吉田うどん','🚆 富士回遊 32 號 下吉田 14:21'],
+  summary:'早上 {t|08:03} 普通車到下吉田，爬 398 階看五重塔＋富士山，中午吃富士吉田名物吉田うどん、逛本町通り，{t|14:21} 在下吉田上富士回遊 32 號（{k|跟方案 A 同一班、同一張票}），16:08 到新宿。之後跟方案 A 一樣：牛舌、燒肉、六本木、東京鐵塔。天上山纜車放棄。',
   map:{view:{clon:139.25,clat:35.58,dlat:0.60},
     nodes:[
       {id:'htl',lon:138.775,lat:35.488,dx:80,dy:-2,e:'🏨',n:'超級飯店',k:'hotel',note:['07:35 計程車到站'],at:'r'},
       {id:'kwg',lon:138.765,lat:35.499,dx:-10,dy:-62,e:'🚉',n:'河口湖站',k:'rail',note:['08:03 普通車'],at:'r'},
-      {id:'chu',lon:138.800,lat:35.479,dx:90,dy:36,e:'🗼',n:'下吉田・忠靈塔',k:'nature',note:['398 階 08:20–10:30','10:45 上車'],at:'r'},
-      {id:'otk',lon:138.940,lat:35.611,dx:0,dy:-62,e:'🔁',n:'大月',k:'rail',note:['11:35 到，同一班車續開','或換 12:06 特急甲斐路'],at:'r'},
-      {id:'sjk',lon:139.700,lat:35.690,dx:-10,dy:56,e:'🏙️',n:'新宿',k:'city',note:['約 13:20 到','午餐・逛街・晚餐'],at:'l'},
-      {id:'thl',lon:139.745,lat:35.702,dx:30,dy:-45,e:'🏨',n:'東京飯店',k:'hotel'},
+      {id:'chu',lon:138.800,lat:35.479,dx:90,dy:36,e:'🗼',n:'下吉田・忠靈塔',k:'nature',note:['忠靈塔＋吉田うどん','14:21 富士回遊 32 號'],at:'r'},
+      {id:'sjk',lon:139.700,lat:35.690,dx:-70,dy:40,e:'🥩',n:'新宿：牛舌＋燒肉',k:'food',note:['17:00 牛たんの檸檬','19:00 燒肉'],at:'l'},
+      {id:'rpg',lon:139.729,lat:35.660,dx:-75,dy:80,e:'✨',n:'六本木けやき坂',k:'light',note:['點燈到 22:00'],at:'l'},
+      {id:'ttw',lon:139.745,lat:35.659,dx:-5,dy:95,e:'🗼',n:'東京鐵塔',k:'shop'},
+      {id:'thl',lon:139.745,lat:35.702,dx:34,dy:-50,e:'🏨',n:'飯田橋 飯店',k:'hotel',note:['23:00 Check-in'],at:'l'},
     ],
     routes:[
-      {seq:['htl','kwg','chu','otk','sjk'],color:'var(--d2)',label:'早上：忠靈塔 → 大月 → 新宿'},
-      {seq:['sjk','thl'],color:'var(--key)',label:'晚上：新宿 → 飯店'},
+      {seq:['htl','kwg','chu'],color:'var(--d2)',label:'早上：河口湖站 → 下吉田・忠靈塔'},
+      {seq:['chu','sjk','rpg','ttw','thl'],color:'var(--key)',label:'下午：富士回遊 → 新宿美食 → 六本木 → 東京鐵塔 → 飯店'},
     ]},
   steps:[
    {when:'07:00–07:30',title:'飯店早餐',body:'07:00 一開門就吃，30 分內吃完。',price:'含',why:'',tags:['free'],links:[]},
    {when:'07:35–07:50',title:'Check-out，計程車到河口湖站',body:'1.5 km，走路 20 分也行但早上趕時間。背包隨身。',price:'計程車約 ¥1,000',why:'趕 08:03',tags:[],links:[]},
-   {when:'08:03',title:'富士急普通 河口湖 → 08:17 下吉田',body:'{!|錯過就等 09:00 トーマスランド号}（普通車，乘車券即可），忠靈塔時間會壓縮到 1 小時。',price:'¥330',why:'',tags:['must'],links:[L('富士急 河口湖駅 時刻表','https://www.fujikyu-railway.jp/station/timetable.php?no=18')]},
-   {when:'08:20–10:30',title:'新倉山淺間公園・忠靈塔',body:'下吉田站步行 20 分（上坡）到入口，{k|398 階咲くや姫階段} 15–20 分到展望台，早上順光、富士山最清楚，拍照 40 分，下山＋回站 35 分。{!|10:30 前一定要回到下吉田站}。',price:'免費',why:'五重塔＋富士山經典構圖',tags:['free','walk'],links:[L('新倉山淺間公園 アクセス・所要時間','https://banzokubiology.com/arakurayama-access-guide/')]},
-   {when:'10:45',title:'普通車 下吉田 → 大月 → 高尾站（同一班車）',body:'{k|平日 1456M，下吉田 10:45、大月 11:35，在大月停 15 分後 11:50 以 JR 普通高尾行續開}，約 12:30 到高尾站，中途不用下車。可刷 Suica。{!|錯過這班}就搭下一班到大月，再換特急甲斐路或中央線普通車。',price:'約 ¥1,000＋JR 約 ¥1,340',why:'一班車坐到高尾站',tags:['must'],links:[L('富士急 下吉田駅 時刻表','https://www.fujikyu-railway.jp/station/timetable.php?no=14'),L('大月駅 上り 時刻表','https://timetables.jreast.co.jp/2610/timetable/tt0331/0331020.html')]},
-   {when:'12:30–約 13:20',title:'高尾站換中央線 → 新宿',body:'只是在高尾站換車，不出站。換 {k|中央特快 東京行}，約 45–50 分到新宿，10–15 分一班，不用劃位。到站時間是估算，當天以站內看板為準。',price:'含在上面',why:'',tags:[],links:[]},
-   {when:'13:30–14:30',title:'新宿午餐',body:'店家待定，食物安排好之後補上。',price:'',why:'',tags:[],links:[]},
-   {when:'14:30–19:00',title:'新宿逛街（自由活動）',body:'想改去 {p|池袋太陽城} 也可以：山手線 9 分，Pokémon Center 到 {t|20:00}、Animate 池袋本店平日到 21:00。',price:'',why:'',tags:[],links:[]},
-   {when:'19:00–20:00',title:'晚餐',body:'店家待定，食物安排好之後補上。',price:'',why:'',tags:[],links:[]},
-   {when:'20:30 前後',title:'東京飯店 Check-in，領黑貓寄來的行李',body:'從新宿出發：池袋陽光城王子約 20 分、飯田橋約 15 分、龜戶約 35 分。',price:'',why:'',tags:[],links:[]},
+   {when:'08:03',title:'富士急普通 河口湖 → 08:17 下吉田',body:'{!|錯過就等 09:00 トーマスランド号}（普通車，乘車券即可）。昨晚沒去迴廊的話，方案 B 就沒時間補看了。',price:'¥330',why:'',tags:['must'],links:[L('富士急 河口湖駅 時刻表','https://www.fujikyu-railway.jp/station/timetable.php?no=18')]},
+   {when:'08:20–10:45',title:'新倉山淺間公園・忠靈塔',body:'下吉田站步行 20 分（上坡）到入口，{k|398 階咲くや姫階段} 15–20 分到展望台，早上順光、富士山最清楚，拍照 40 分以上，下山 30 分。平日人比週末少很多。',price:'免費',why:'五重塔＋富士山經典構圖',tags:['free','walk'],links:[L('新倉山淺間公園 アクセス・所要時間','https://banzokubiology.com/arakurayama-access-guide/')]},
+   {when:'11:00–12:30',title:'名物午餐：吉田うどん',body:'富士吉田的硬麵烏龍，下吉田、月江寺一帶店很多，多數只開到中午過後，{!|11:00–13:00 去最保險}。',price:'約 ¥600–900',why:'富士吉田名物',tags:[],links:[]},
+   {when:'12:30–14:10',title:'本町通り、月江寺昭和街道',body:'本町通り是「街道盡頭就是富士山」的拍照點，月江寺一帶有昭和老街和咖啡店。{!|14:10 前回到下吉田站}。',price:'免費',why:'',tags:['walk','free'],links:[]},
+   {when:'14:21',title:'下吉田上富士回遊 32 號 → 16:08 新宿',body:'用方案 A 同一張「河口湖→新宿」指定席，在下吉田上車即可。錯過就等 15:12 的 36 號（16:59 到新宿），牛舌第一輪趕不上，就只吃燒肉。',price:'已含',why:'不用轉車',tags:['ticket','must'],links:[L('特急富士回遊 時刻表','https://jr-group.jp/fujikaiyu-timetable/')]},
+   {when:'16:08',title:'到新宿，走到西口',body:'出站往 {p|西口・小滝橋通り} 走 5–7 分到 {p|西新宿 7 丁目 YS ビル B1F}。背包隨身。',price:'',why:'',tags:['walk'],links:[]},
+   {when:'16:45–18:00',title:'牛たんの檸檬 新宿総本店（17:00 開門第一輪）',body:'網路預約已滿，{k|16:45 前到門口排自由席}，17:00 開門第一輪最好進。名物極み厚切牛舌定食，{!|定食 60 分鐘制}。',price:'約 ¥2,500–3,000／人',why:'厚切牛舌名店',tags:[],links:[L('TableCheck（盯取消）','https://www.tablecheck.com/ja/shops/gyutannolemon/reserve'),L('官網','https://www.store-gyutan-lemon.com/')]},
+   {when:'18:00–19:00',title:'新宿消化一下',body:'西口、歌舞伎町周邊逛逛，或先把戰利品寄放置物櫃。',price:'',why:'',tags:[],links:[]},
+   {when:'19:00–20:30',title:'燒肉晚餐（店家待定）',body:'{k|19:00 以後}，店家與預約時間待定。{!|富士回遊延誤或改搭晚班，就跳過牛舌只吃燒肉}。',price:'—',why:'',tags:['ticket'],links:[]},
+   {when:'20:30–20:45',title:'大江戶線 新宿 → 六本木',body:'都營大江戶線約 10 分，六本木站 3 號出口走 5 分到六本木ヒルズ。',price:'¥220',why:'',tags:[],links:[]},
+   {when:'20:45–21:30',title:'六本木けやき坂イルミネーション',body:'11/5–12/25，點燈 {t|17:00–22:00}。約 400 m、SNOW & BLUE，從六本木ヒルズ側往下走，回頭看{p|東京鐵塔}在坡道盡頭。毛利庭園到 23:00。',price:'免費',why:'',tags:['free'],links:[L('六本木ヒルズ けやき坂 官方','https://www.roppongihills.com/sp/christmashills/102/')]},
+   {when:'21:30–22:15',title:'東京鐵塔景觀 FamilyMart',body:'六本木走到東京鐵塔約 20 分（或大江戶線一站到 {p|赤羽橋}）。{!|店名還沒確認}，把 Google Maps 連結給我就幫你標進地圖。東京鐵塔每正點有燈光演出。',price:'—',why:'',tags:['walk'],links:[]},
+   {when:'22:30–23:00',title:'大江戶線 赤羽橋 → 飯田橋，Check-in',body:'直達約 15 分，不用轉車。領黑貓寄來的行李。{!|先跟飯店說 23:00 左右才到}。',price:'¥220',why:'',tags:[],links:[]},
   ],
   branches:[
-   {kind:'main',title:'忠靈塔 → 中午回新宿',body:'上方時間軸。整天不用任何預約票。'},
-   {kind:'alt',title:'在大月換特急甲斐路（有座位、早 10 分左右到）',body:'11:35 到大月就下車，等 31 分換 {t|12:06} 特急甲斐路，約 13:10 到新宿。要在大月站加買座席未指定券（約 ¥1,000）。'},
-  ]};
-const DAY4_MAIN={
-  title:'機動日 → Bar 最後一場', meta:['🌳 御苑／外苑 或 第二輪補貨','⏰ Bar 20:00','✨ 六本木移到 Day 5'],
-  summary:'白天三選一：新宿御苑加外苑銀杏、Day 3 沒搶到的第二輪、太陽城沒逛完再去。20:00 進 Bar，結束後直接回飯店。{k|六本木點燈改到 Day 5 傍晚}，今天不用趕。',
-  map:{view:{clon:139.74,clat:35.70,dlat:0.2},labels:['新宿区','世田谷区','千代田区','豊島区'],
-    nodes:[
-      {id:'thl',lon:139.745,lat:35.702,dx:50,dy:-30,e:'🏨',n:'東京飯店',k:'hotel'},
-      {id:'gyo',lon:139.710,lat:35.685,dx:-62,dy:-30,e:'🌳',n:'新宿御苑',k:'nature',note:['09:00–16:00','¥500'],at:'l'},
-      {id:'gai',lon:139.718,lat:35.676,dx:-40,dy:48,e:'🍂',n:'神宮外苑銀杏',k:'nature',note:['約七成黃','免費'],at:'r'},
-      {id:'smk',lon:139.668,lat:35.661,dx:-30,dy:44,e:'🌀',n:'下北澤 Bar',k:'bar',note:['20:00 最後一場'],at:'l'},
-      {id:'akb',lon:139.773,lat:35.698,dx:40,dy:30,e:'🛒',n:'秋葉原（選項 B）',k:'shop',dim:true},
-      {id:'ikb',lon:139.719,lat:35.729,dx:-10,dy:-40,e:'🎮',n:'池袋（選項 C）',k:'shop',dim:true},
-    ],
-    routes:[
-      {seq:['thl','gyo','gai','smk'],color:'var(--d4)',label:'去程：御苑 → 外苑 → Bar'},
-      {seq:['smk','thl'],color:'var(--key)',label:'回程：Bar → 飯店'},
-    ]},
-  steps:[
-   {when:'上午–下午',title:'三選一',body:'A：{p|新宿御苑}（週日有開 09:00–16:00，¥500）看楓葉＋銀杏，走去 {p|神宮外苑銀杏並木}（約七成黃）。B：秋葉原補貨、中野百老匯。C：太陽城沒逛完再去。',price:'御苑 ¥500',why:'',tags:[],links:[L('新宿御苑 紅葉 2026','https://fng.or.jp/shinjuku/2026/10/31/koyo_matome/')]},
-   {when:'19:00',title:'下北澤先吃晚餐',body:'Bar 裡只點限定特調拿杯墊。',price:'',why:'',tags:[],links:[]},
-   {when:'20:00–約 22:00',title:'BEYBLADE BAR 最後一場',body:'今天不用提早走，可以打到結束。已預約。',price:'',why:'',tags:[],links:[]},
-   {when:'22:00',title:'回飯店',body:'小田急→新宿轉乘，到飯田橋約 35 分、龜戶約 50 分。',price:'約 ¥300',why:'',tags:[],links:[]},
-  ],
-  branches:[]};
-const DAY5_MAIN={
-  title:'明治神宮御苑 → 東大銀杏 → 六本木點燈', meta:['⛩️ 11/23 新嘗祭、七五三人潮','🍂 東大銀杏 11 月下旬見頃','✨ けやき坂 17:00–22:00'],
-  summary:'今天留在市區：09:00 {p|明治神宮御苑} 開苑就進，千代田線到本鄉看 {p|東大銀杏並木}，下午最後一輪補貨，{t|17:00} 點燈時到六本木けやき坂。',
-  map:{view:{clon:139.74,clat:35.70,dlat:0.2},labels:['渋谷区','文京区','港区','千代田区','新宿区'],
-    nodes:[
-      {id:'thl',lon:139.745,lat:35.702,dx:-70,dy:-60,e:'🏨',n:'東京飯店',k:'hotel',note:['08:30 出發'],at:'l'},
-      {id:'mji',lon:139.699,lat:35.676,dx:-90,dy:20,e:'⛩️',n:'明治神宮・御苑',k:'nature',note:['御苑 09:00–16:00 ¥500'],at:'b'},
-      {id:'tdk',lon:139.762,lat:35.713,dx:40,dy:-70,e:'🍂',n:'東大本鄉 銀杏並木',k:'nature',note:['11:15–12:30','安田講堂前・免費'],at:'r'},
-      {id:'akb',lon:139.773,lat:35.698,dx:70,dy:-40,e:'🛒',n:'秋葉原',k:'shop',note:['13:00–16:15 最後補貨'],at:'r'},
-      {id:'rop',lon:139.729,lat:35.660,dx:60,dy:45,e:'✨',n:'六本木けやき坂',k:'light',note:['17:00 點燈到 22:00','東京鐵塔構圖'],at:'r'},
-    ],
-    routes:[
-      {seq:['thl','mji','tdk','akb','rop'],color:'var(--d5)',label:'去程：明治神宮 → 東大 → 秋葉原 → 六本木'},
-      {seq:['rop','thl'],color:'var(--key)',label:'回程：六本木 → 飯店'},
-    ]},
-  steps:[
-   {when:'08:30–09:00',title:'出飯店到原宿',body:'JR 山手線到 {p|原宿}，飯田橋走新宿轉乘約 25 分；龜戶約 45 分。',price:'約 ¥200',why:'',tags:[],links:[]},
-   {when:'09:00–10:30',title:'明治神宮・御苑',body:'神宮本體日出開門。{p|御苑} 11 月 {t|09:00–16:00}，全年無休，協力金 ¥500，南池、楓葉、清正井。{!|11/23 是新嘗祭}，祭典與七五三人潮多，御苑裡面反而安靜。',price:'¥500',why:'市區最大的森林',tags:['ticket'],links:[L('明治神宮御苑 官方','https://www.meijijingu.or.jp/midokoro/gyoen/')]},
-   {when:'10:45–11:15',title:'千代田線 明治神宮前 → 湯島／根津',body:'約 20 分，出站走 10 分進東大本鄉校區。',price:'約 ¥210',why:'',tags:['walk'],links:[]},
-   {when:'11:15–12:30',title:'東京大學本鄉 銀杏並木',body:'正門進去到 {p|安田講堂} 的銀杏並木，慣例 {t|11 月下旬～12 月上旬} 見頃，11/23 大約七八成黃。祝日校區可進，免費；校內食堂祝日休息，午餐到本郷三丁目一帶吃。',price:'免費',why:'',tags:['free','walk'],links:[L('本郷いちょう遊歩 2026（11/21–29）','https://digitalpr.jp/r/144372')]},
-   {when:'13:00–16:15',title:'最後一輪補貨：秋葉原',body:'本郷三丁目走 15 分或丸ノ内線→御茶ノ水→秋葉原。Yodobashi、駿河屋、Animate 最後掃一輪，順便寄回飯店或自己扛。也可以改去池袋太陽城。',price:'—',why:'',tags:[],links:[]},
-   {when:'16:30–17:00',title:'日比谷線 秋葉原 → 六本木',body:'直達約 20 分，剛好 17:00 點燈。',price:'約 ¥210',why:'',tags:[],links:[]},
-   {when:'17:00–19:30',title:'けやき坂イルミネーション＋晚餐',body:'11/5–12/25，點燈 {t|17:00–22:00}。剛點燈時人最多、但藍調天空最好拍；從六本木ヒルズ側往下走，回頭看東京鐵塔在坡道盡頭。毛利庭園到 23:00。晚餐在六本木ヒルズ裡面。{p|東京ミッドタウン} 11/26 才開始，趕不上。',price:'免費',why:'',tags:['free'],links:[L('六本木ヒルズ けやき坂 官方','https://www.roppongihills.com/sp/christmashills/102/')]},
-   {when:'20:00',title:'回飯店',body:'日比谷線／大江戶線，到飯田橋約 25 分、龜戶約 40 分。',price:'約 ¥250',why:'',tags:[],links:[]},
-  ],
-  branches:[
-   {kind:'main',title:'東京市區版',body:'上方時間軸。不用任何預約票。'},
-   {kind:'alt',title:'下午改去神宮外苑銀杏',body:'11/23 是整趟最接近外苑見頃（11/24 起）的一天。13:00 東大 → 千代田線到表參道 → 走 10 分到外苑銀杏並木 13:45–15:00，再從青山一丁目走 20 分到六本木，16:30 前到。補貨就放棄。'},
+   {kind:'main',title:'方案 B：去忠靈塔',body:'上方時間軸。'},
+   {kind:'alt',title:'想中午就回東京：不搭富士回遊',body:'10:45 下吉田普通車（直通高尾行）→ 大月 11:35，換中央線到新宿約 13:15。不用指定席，可以中午吃牛舌、晚上吃燒肉，但要轉一次車，吉田うどん就吃不到。'},
+   {kind:'alt',title:'方案 A：不去忠靈塔',body:'天上山纜車＋河口湖慢遊，14:08 河口湖上同一班富士回遊。上方切到方案 A 看。'},
   ]};
 const VARIANTS={
-  1:{day2:DAY2_MAIN, day4:DAY4_MAIN, day5:DAY5_MAIN},
+  1:{},
+  2:{day2:DAY2_B},
 };
-const VERSIONS=[];
+const VERSIONS=[
+  {v:1,name:'方案 A 不去忠靈塔',sub:'早上天上山纜車（昨晚沒看迴廊就先補看）→ 河口湖慢遊、餺飥 → 14:08 河口湖上富士回遊',need:'要訂：富士回遊 32 號（河口湖→新宿）'},
+  {v:2,name:'方案 B 去忠靈塔',sub:'08:03 到下吉田 → 忠靈塔 → 吉田うどん、本町通り → 14:21 下吉田上富士回遊',need:'同一張富士回遊 32 號車票，在下吉田上車'},
+];
 let VER=1;
 function dayFor(d){const o=VARIANTS[VER][d.id];return o?{...d,...o}:d}
 
@@ -564,13 +628,16 @@ function setVersion(v,push){
   try{localStorage.setItem('tf_ver',String(VER))}catch(e){}
 }
 /* version block */
+const vrow=document.getElementById('vrow');
+VERSIONS.forEach(x=>{const b=document.createElement('button');b.className='vbtn';b.dataset.vb=x.v;b.setAttribute('aria-pressed','false');
+  b.innerHTML=`<b>${x.name}</b><span>${x.sub}</span><em>${x.need}</em>`;b.addEventListener('click',()=>{setVersion(x.v,true);select(document.querySelector('.day.active').id,true)});vrow.appendChild(b)});
 
 /* ---------- boot ---------- */
 function parseHash(){const m=location.hash.replace('#','').match(/^(?:v(\d)-)?(day\d)$/);return m?{v:m[1]?+m[1]:1,id:m[2]}:null}
 let start='day1', sv=1;
 const ph=parseHash();
 if(ph){start=ph.id;sv=ph.v}else{try{const s=localStorage.getItem('tf_day');if(DAYS.some(d=>d.id===s))start=s;const v=+localStorage.getItem('tf_ver');if(VARIANTS[v])sv=v}catch(e){}}
-if(!VARIANTS[sv])sv=1;VER=sv;document.body.className='ver'+VER;
+VER=sv;document.body.className='ver'+VER;
 document.querySelectorAll('.vbtn').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.vb===VER?'true':'false'));
 renderDays();select(start,false);
 window.addEventListener('hashchange',()=>{const x=parseHash();if(!x)return;if(x.v!==VER){setVersion(x.v,false)}select(x.id,false)});
